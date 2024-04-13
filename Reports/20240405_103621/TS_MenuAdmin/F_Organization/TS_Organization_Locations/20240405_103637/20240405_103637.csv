@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Organization_Locations,Chrome 123.0.0.0,,,05-04-2024 10:43:18,05-04-2024 10:43:59,40.591s,PASSED
+,,,,,,,
+Test Cases/Menu_Admin/Navigate_Organization_Location,Chrome 123.0.0.0,,,05-04-2024 10:43:18,05-04-2024 10:43:59,40.408s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,05-04-2024 10:43:19,05-04-2024 10:43:45,26.075s,PASSED
+delay(3),Chrome 123.0.0.0,,,05-04-2024 10:43:45,05-04-2024 10:43:48,3.012s,PASSED
+"click(findTestObject(""F_Menu_Admin/menu_admin""))",Chrome 123.0.0.0,,,05-04-2024 10:43:48,05-04-2024 10:43:50,2.160s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Organization/tab_organization""))",Chrome 123.0.0.0,,,05-04-2024 10:43:50,05-04-2024 10:43:52,2.325s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Organization/select_locations""))",Chrome 123.0.0.0,,,05-04-2024 10:43:52,05-04-2024 10:43:54,2.169s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menuWithFilter""), ""Locations"")",Chrome 123.0.0.0,,,05-04-2024 10:43:54,05-04-2024 10:43:56,1.332s,PASSED
+delay(3),Chrome 123.0.0.0,,,05-04-2024 10:43:56,05-04-2024 10:43:59,3.008s,PASSED

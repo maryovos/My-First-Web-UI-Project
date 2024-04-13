@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Job_PayGrades,Chrome 123.0.0.0,,,13-04-2024 18:43:38,13-04-2024 18:45:19,1m - 41.258s,PASSED
+,,,,,,,
+Test Cases/Menu_Admin/Navigate_Job_PayGrades,Chrome 123.0.0.0,,,13-04-2024 18:43:38,13-04-2024 18:45:19,1m - 40.885s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,13-04-2024 18:43:39,13-04-2024 18:45:00,1m - 20.775s,PASSED
+delay(3),Chrome 123.0.0.0,,,13-04-2024 18:45:00,13-04-2024 18:45:03,3.018s,PASSED
+"click(findTestObject(""F_Menu_Admin/menu_admin""))",Chrome 123.0.0.0,,,13-04-2024 18:45:03,13-04-2024 18:45:05,2.628s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Job/tab_job""))",Chrome 123.0.0.0,,,13-04-2024 18:45:05,13-04-2024 18:45:08,3.003s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Job/select_payGrades""))",Chrome 123.0.0.0,,,13-04-2024 18:45:08,13-04-2024 18:45:12,3.487s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menu""), ""Pay Grades"")",Chrome 123.0.0.0,,,13-04-2024 18:45:12,13-04-2024 18:45:16,4.320s,PASSED
+delay(3),Chrome 123.0.0.0,,,13-04-2024 18:45:16,13-04-2024 18:45:19,3.014s,PASSED

@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LoginLogout,Chrome 123.0.0.0,,,13-04-2024 18:51:04,13-04-2024 18:54:30,3m - 25.418s,PASSED
+,,,,,,,
+Test Cases/Login/Login_Success,Chrome 123.0.0.0,,,13-04-2024 18:51:05,13-04-2024 18:51:48,43.737s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,13-04-2024 18:51:05,13-04-2024 18:51:08,2.786s,PASSED
+navigateToUrl(url_login),Chrome 123.0.0.0,,,13-04-2024 18:51:08,13-04-2024 18:51:31,23.293s,PASSED
+delay(3),Chrome 123.0.0.0,,,13-04-2024 18:51:31,13-04-2024 18:51:34,3.067s,PASSED
+"takeScreenshotAsCheckpoint(""Before Login"")",Chrome 123.0.0.0,,,13-04-2024 18:51:34,13-04-2024 18:51:35,1.018s,PASSED
+"setText(findTestObject(""field_username""), valid_username)",Chrome 123.0.0.0,,,13-04-2024 18:51:35,13-04-2024 18:51:38,2.946s,PASSED
+"setText(findTestObject(""field_password""), valid_password)",Chrome 123.0.0.0,,,13-04-2024 18:51:38,13-04-2024 18:51:41,2.814s,PASSED
+"click(findTestObject(""btn_login""))",Chrome 123.0.0.0,,,13-04-2024 18:51:41,13-04-2024 18:51:42,1.440s,PASSED
+delay(5),Chrome 123.0.0.0,,,13-04-2024 18:51:42,13-04-2024 18:51:47,5.010s,PASSED
+"takeScreenshotAsCheckpoint(""After Login"")",Chrome 123.0.0.0,,,13-04-2024 18:51:47,13-04-2024 18:51:48,0.832s,PASSED
+,,,,,,,
+Test Cases/Login/Login_Failed,Chrome 123.0.0.0,,,13-04-2024 18:51:48,13-04-2024 18:52:21,32.787s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,13-04-2024 18:51:49,13-04-2024 18:51:50,1.573s,PASSED
+navigateToUrl(url_login),Chrome 123.0.0.0,,,13-04-2024 18:51:50,13-04-2024 18:52:08,17.995s,PASSED
+delay(0),Chrome 123.0.0.0,,,13-04-2024 18:52:08,13-04-2024 18:52:08,0.009s,PASSED
+"takeScreenshotAsCheckpoint(""Before Login Failed"", [])",Chrome 123.0.0.0,,,13-04-2024 18:52:08,13-04-2024 18:52:10,1.779s,PASSED
+"setText(findTestObject(""field_username""), invalid_username)",Chrome 123.0.0.0,,,13-04-2024 18:52:10,13-04-2024 18:52:13,2.845s,PASSED
+"setText(findTestObject(""field_password""), invalid_password)",Chrome 123.0.0.0,,,13-04-2024 18:52:13,13-04-2024 18:52:16,2.830s,PASSED
+"click(findTestObject(""btn_login""))",Chrome 123.0.0.0,,,13-04-2024 18:52:16,13-04-2024 18:52:17,1.402s,PASSED
+delay(3),Chrome 123.0.0.0,,,13-04-2024 18:52:17,13-04-2024 18:52:20,3.017s,PASSED
+"verifyElementPresent(findTestObject(""verify_loginFailed""), 2)",Chrome 123.0.0.0,,,13-04-2024 18:52:20,13-04-2024 18:52:20,0.429s,PASSED
+"takeScreenshotAsCheckpoint(""After Login Failed"", [])",Chrome 123.0.0.0,,,13-04-2024 18:52:20,13-04-2024 18:52:21,0.705s,PASSED
+,,,,,,,
+Test Cases/Login/Logout_Success,Chrome 123.0.0.0,,,13-04-2024 18:52:21,13-04-2024 18:53:09,47.419s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,13-04-2024 18:52:21,13-04-2024 18:52:59,37.216s,PASSED
+delay(3),Chrome 123.0.0.0,,,13-04-2024 18:52:59,13-04-2024 18:53:02,3.016s,PASSED
+"click(findTestObject(""dropdow_logout""))",Chrome 123.0.0.0,,,13-04-2024 18:53:02,13-04-2024 18:53:03,1.416s,PASSED
+"click(findTestObject(""btn_logout""))",Chrome 123.0.0.0,,,13-04-2024 18:53:03,13-04-2024 18:53:06,2.589s,PASSED
+delay(3),Chrome 123.0.0.0,,,13-04-2024 18:53:06,13-04-2024 18:53:09,3.007s,PASSED
+,,,,,,,
+Test Cases/SearchMenuBySearchBox_Failed,Chrome 123.0.0.0,,,13-04-2024 18:53:09,13-04-2024 18:53:44,35.097s,PASSED
+"callTestCase(findTestCase(""Login/Login_Failed""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,13-04-2024 18:53:09,13-04-2024 18:53:44,34.926s,PASSED
+,,,,,,,
+Test Cases/SearchMenuBySearchBox_Success,Chrome 123.0.0.0,,,13-04-2024 18:53:44,13-04-2024 18:54:30,46.044s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,13-04-2024 18:53:44,13-04-2024 18:54:20,36.668s,PASSED
+delay(3),Chrome 123.0.0.0,,,13-04-2024 18:54:20,13-04-2024 18:54:23,3.023s,PASSED
+"setText(findTestObject(""searchBox_menu""), ""Admin"")",Chrome 123.0.0.0,,,13-04-2024 18:54:23,13-04-2024 18:54:26,2.767s,PASSED
+"verifyElementPresent(findTestObject(""verify_searchMenu""), 0)",Chrome 123.0.0.0,,,13-04-2024 18:54:26,13-04-2024 18:54:27,0.447s,PASSED
+delay(3),Chrome 123.0.0.0,,,13-04-2024 18:54:27,13-04-2024 18:54:30,3.005s,PASSED

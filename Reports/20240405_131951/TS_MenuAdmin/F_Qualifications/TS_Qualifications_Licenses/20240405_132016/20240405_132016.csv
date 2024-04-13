@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Qualifications_Licenses,Chrome 123.0.0.0,,,05-04-2024 13:34:13,05-04-2024 13:34:58,45.454s,PASSED
+,,,,,,,
+Test Cases/Menu_Admin/Navigate_Qualifications_Licenses,Chrome 123.0.0.0,,,05-04-2024 13:34:13,05-04-2024 13:34:58,45.178s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,05-04-2024 13:34:13,05-04-2024 13:34:43,29.844s,PASSED
+delay(3),Chrome 123.0.0.0,,,05-04-2024 13:34:43,05-04-2024 13:34:46,3.011s,PASSED
+"click(findTestObject(""F_Menu_Admin/menu_admin""))",Chrome 123.0.0.0,,,05-04-2024 13:34:46,05-04-2024 13:34:49,2.495s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Qualifications/tab_qualifications""))",Chrome 123.0.0.0,,,05-04-2024 13:34:49,05-04-2024 13:34:51,2.684s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Qualifications/select_licenses""))",Chrome 123.0.0.0,,,05-04-2024 13:34:51,05-04-2024 13:34:53,2.086s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menu""), ""Licenses"")",Chrome 123.0.0.0,,,05-04-2024 13:34:53,05-04-2024 13:34:55,1.596s,PASSED
+delay(3),Chrome 123.0.0.0,,,05-04-2024 13:34:55,05-04-2024 13:34:58,3.010s,PASSED

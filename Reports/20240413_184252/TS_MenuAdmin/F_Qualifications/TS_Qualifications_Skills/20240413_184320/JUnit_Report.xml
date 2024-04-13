@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Qualifications_Skills" time="76.862" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Qualifications_Skills" tests="1" failures="0" errors="0" time="76.862" skipped="0" timestamp="13-04-2024T18:46:04" hostname="1556 - LAPTOP-PT885S91" id="Test Suites/TS_MenuAdmin/F_Qualifications/TS_Qualifications_Skills">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1556\\Katalon Studio\\My First Web UI Project\\Reports\\20240413_184252\\TS_MenuAdmin\\F_Qualifications\\TS_Qualifications_Skills\\20240413_184320"/>
+         <property name="logFiles" value="C:\\Users\\1556\\Katalon Studio\\My First Web UI Project\\Reports\\20240413_184252\\TS_MenuAdmin\\F_Qualifications\\TS_Qualifications_Skills\\20240413_184320\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Before Login.png, keyes\keyes-After Login.png"/>
+         <property name="hostName" value="1556 - LAPTOP-PT885S91"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.139"/>
+         <property name="sessionId" value="d31ecfa55a241e3fce99ed14f3963aff"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Menu_Admin/Navigate_Qualifications_Skills" time="76.281" classname="Test Cases/Menu_Admin/Navigate_Qualifications_Skills" status="PASSED">
+         <system-out><![CDATA[13-04-2024T18:46:04 - [TEST_CASE][PASSED] - Test Cases/Menu_Admin/Navigate_Qualifications_Skills: Test Cases/Menu_Admin/Navigate_Qualifications_Skills
+
+13-04-2024T18:46:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login_Success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login_Success' successfully
+
+13-04-2024T18:46:06 - [TEST_CASE][PASSED] - Test Cases/Login/Login_Success: Test Cases/Login/Login_Success
+
+13-04-2024T18:46:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2024T18:46:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2024T18:46:07 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-04-2024T18:46:07 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+13-04-2024T18:46:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2024T18:46:12 - [TEST_STEP][PASSED] - navigateToUrl(url_login): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+13-04-2024T18:46:46 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+13-04-2024T18:46:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-04-2024T18:46:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-04-2024T18:46:49 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Login"): Taking screenshot successfully
+
+13-04-2024T18:46:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-04-2024T18:46:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Before Login.png]]
+
+13-04-2024T18:46:50 - [TEST_STEP][PASSED] - setText(findTestObject("field_username"), valid_username): Text 'Admin' is set on object 'Object Repository/field_username'
+
+13-04-2024T18:46:53 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/field_username'
+
+13-04-2024T18:46:53 - [TEST_STEP][PASSED] - setText(findTestObject("field_password"), valid_password): Text 'admin123' is set on object 'Object Repository/field_password'
+
+13-04-2024T18:46:56 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/field_password'
+
+13-04-2024T18:46:56 - [TEST_STEP][PASSED] - click(findTestObject("btn_login")): Object: 'Object Repository/btn_login' is clicked on
+
+13-04-2024T18:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_login' is clicked on
+
+13-04-2024T18:46:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+13-04-2024T18:47:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-04-2024T18:47:04 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Login"): Taking screenshot successfully
+
+13-04-2024T18:47:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-04-2024T18:47:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-After Login.png]]
+
+13-04-2024T18:47:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login_Success' successfully
+
+13-04-2024T18:47:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-04-2024T18:47:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-04-2024T18:47:08 - [TEST_STEP][PASSED] - click(findTestObject("F_Menu_Admin/menu_admin")): Object: 'Object Repository/F_Menu_Admin/menu_admin' is clicked on
+
+13-04-2024T18:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/F_Menu_Admin/menu_admin' is clicked on
+
+13-04-2024T18:47:11 - [TEST_STEP][PASSED] - click(findTestObject("F_Menu_Admin/F_Qualifications/tab_qualifications")): Object: 'Object Repository/F_Menu_Admin/F_Qualifications/tab_qualifications' is clicked on
+
+13-04-2024T18:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/F_Menu_Admin/F_Qualifications/tab_qualifications' is clicked on
+
+13-04-2024T18:47:14 - [TEST_STEP][PASSED] - click(findTestObject("F_Menu_Admin/F_Qualifications/select_skills")): Object: 'Object Repository/F_Menu_Admin/F_Qualifications/select_skills' is clicked on
+
+13-04-2024T18:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/F_Menu_Admin/F_Qualifications/select_skills' is clicked on
+
+13-04-2024T18:47:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("F_Menu_Admin/title_menu"), "Skills"): Actual text and expected text of test object 'Object Repository/F_Menu_Admin/title_menu' are matched.
+
+13-04-2024T18:47:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/F_Menu_Admin/title_menu' are matched.
+
+13-04-2024T18:47:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-04-2024T18:47:20 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-04-2024T18:46:04 - [TEST_SUITE][PASSED] - TS_Qualifications_Skills: Test Cases/Menu_Admin/Navigate_Qualifications_Skills]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

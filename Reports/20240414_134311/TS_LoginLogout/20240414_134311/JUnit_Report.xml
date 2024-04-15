@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_LoginLogout" time="580.649" tests="5" failures="0" errors="0">
+   <testsuite name="TS_LoginLogout" tests="5" failures="0" errors="0" time="580.649" skipped="0" timestamp="14-04-2024T13:43:23" hostname="1556 - LAPTOP-PT885S91" id="Test Suites/TS_LoginLogout">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\1556\\git\\My-First-Web-UI-Project\\Reports\\20240414_134311\\TS_LoginLogout\\20240414_134311"/>
+         <property name="logFiles" value="C:\\Users\\1556\\git\\My-First-Web-UI-Project\\Reports\\20240414_134311\\TS_LoginLogout\\20240414_134311\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Before Login.png, keyes\keyes-After Login.png, keyes\keyes-Before Login Failed.png, keyes\keyes-After Login Failed.png, keyes\keyes-Before Login.png, keyes\keyes-After Login.png, keyes\keyes-Before Login Failed.png, keyes\keyes-After Login Failed.png, keyes\keyes-Before Login.png, keyes\keyes-After Login.png"/>
+         <property name="hostName" value="1556 - LAPTOP-PT885S91"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;requestId&quot;: &quot;90adf183-92c5-44a4-b2dd-a7a31b44e013&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;122.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;apiKey&quot;: &quot;96ca78a0-4fe6-4098-95c7-9a1b1bed4aa8&quot;,&#xa;    &quot;tunnelMetadataId&quot;: &quot;9e2c2ce9-547c-4b61-bd40-d9a619d17015&quot;,&#xa;    &quot;userId&quot;: 1475388,&#xa;    &quot;organizationId&quot;: &quot;1440491&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;tenant&quot;: &quot;KatalonStudio&quot;,&#xa;    &quot;usingTunnel&quot;: true,&#xa;    &quot;group&quot;: &quot;dded74bb-00ee-466c-bada-55ca4be7b8d6&quot;&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;122.0.6261.6 (294fa47bfa42226d7b32fdf1f0e56223ee875cf6-refs/branch-heads/6261@{#16})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir3788_83295727&quot;&#xa;  },&#xa;  &quot;os&quot;: &quot;windows&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;122&quot;,&#xa;  &quot;se:cdp&quot;: &quot;ws://172.48.65.125:4444/session/4e66bcd5ab16e3c5bc0c300e71ff8a41/se/cdp&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.139"/>
+         <property name="sessionId" value="4e66bcd5ab16e3c5bc0c300e71ff8a41"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login_Success" time="108.267" classname="Test Cases/Login/Login_Success" status="PASSED">
+         <system-out><![CDATA[14-04-2024T13:43:23 - [TEST_CASE][PASSED] - Test Cases/Login/Login_Success: Test Cases/Login/Login_Success
+
+14-04-2024T13:43:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-04-2024T13:43:24 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+14-04-2024T13:43:24 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+14-04-2024T13:43:24 - [MESSAGE][INFO] - User set preference: ['browserVersion', '122']
+
+14-04-2024T13:43:24 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1440491, tunnelId=9e2c2ce9-547c-4b61-bd40-d9a619d17015, usingTunnel=true}']
+
+14-04-2024T13:43:24 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+14-04-2024T13:43:25 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+14-04-2024T13:44:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-04-2024T13:44:06 - [TEST_STEP][PASSED] - navigateToUrl(url_login): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+14-04-2024T13:44:28 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+14-04-2024T13:44:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-04-2024T13:44:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-04-2024T13:44:31 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Login"): Taking screenshot successfully
+
+14-04-2024T13:44:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-04-2024T13:44:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Before Login.png]]
+
+14-04-2024T13:44:37 - [TEST_STEP][PASSED] - setText(findTestObject("field_username"), valid_username): Text 'Admin' is set on object 'Object Repository/field_username'
+
+14-04-2024T13:44:47 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/field_username'
+
+14-04-2024T13:44:47 - [TEST_STEP][PASSED] - setText(findTestObject("field_password"), valid_password): Text 'admin123' is set on object 'Object Repository/field_password'
+
+14-04-2024T13:44:56 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/field_password'
+
+14-04-2024T13:44:56 - [TEST_STEP][PASSED] - click(findTestObject("btn_login")): Object: 'Object Repository/btn_login' is clicked on
+
+14-04-2024T13:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_login' is clicked on
+
+14-04-2024T13:45:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+14-04-2024T13:45:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-04-2024T13:45:05 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Login"): Taking screenshot successfully
+
+14-04-2024T13:45:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-04-2024T13:45:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-After Login.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login_Failed" time="101.343" classname="Test Cases/Login/Login_Failed" status="PASSED">
+         <system-out><![CDATA[14-04-2024T13:45:11 - [TEST_CASE][PASSED] - Test Cases/Login/Login_Failed: Test Cases/Login/Login_Failed
+
+14-04-2024T13:45:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-04-2024T13:45:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-04-2024T13:45:13 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+14-04-2024T13:45:13 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+14-04-2024T13:45:13 - [MESSAGE][INFO] - User set preference: ['browserVersion', '122']
+
+14-04-2024T13:45:13 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1440491, tunnelId=9e2c2ce9-547c-4b61-bd40-d9a619d17015, usingTunnel=true}']
+
+14-04-2024T13:45:13 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+14-04-2024T13:45:13 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+14-04-2024T13:45:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-04-2024T13:45:52 - [TEST_STEP][PASSED] - navigateToUrl(url_login): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+14-04-2024T13:46:12 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+14-04-2024T13:46:12 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+14-04-2024T13:46:12 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+14-04-2024T13:46:12 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Login Failed", []): Taking screenshot successfully
+
+14-04-2024T13:46:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-04-2024T13:46:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Before Login Failed.png]]
+
+14-04-2024T13:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("field_username"), invalid_username): Text 'admin' is set on object 'Object Repository/field_username'
+
+14-04-2024T13:46:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/field_username'
+
+14-04-2024T13:46:28 - [TEST_STEP][PASSED] - setText(findTestObject("field_password"), invalid_password): Text 'Admin123' is set on object 'Object Repository/field_password'
+
+14-04-2024T13:46:37 - [MESSAGE][PASSED] - Text 'Admin123' is set on object 'Object Repository/field_password'
+
+14-04-2024T13:46:37 - [TEST_STEP][PASSED] - click(findTestObject("btn_login")): Object: 'Object Repository/btn_login' is clicked on
+
+14-04-2024T13:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_login' is clicked on
+
+14-04-2024T13:46:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-04-2024T13:46:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-04-2024T13:46:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("verify_loginFailed"), 2): Object 'Object Repository/verify_loginFailed' is present
+
+14-04-2024T13:46:48 - [MESSAGE][PASSED] - Object 'Object Repository/verify_loginFailed' is present
+
+14-04-2024T13:46:48 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Login Failed", []): Taking screenshot successfully
+
+14-04-2024T13:46:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-04-2024T13:46:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-After Login Failed.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Logout_Success" time="137.442" classname="Test Cases/Login/Logout_Success" status="PASSED">
+         <system-out><![CDATA[14-04-2024T13:46:53 - [TEST_CASE][PASSED] - Test Cases/Login/Logout_Success: Test Cases/Login/Logout_Success
+
+14-04-2024T13:46:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login_Success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login_Success' successfully
+
+14-04-2024T13:46:53 - [TEST_CASE][PASSED] - Test Cases/Login/Login_Success: Test Cases/Login/Login_Success
+
+14-04-2024T13:46:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-04-2024T13:46:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-04-2024T13:46:54 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+14-04-2024T13:46:54 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+14-04-2024T13:46:54 - [MESSAGE][INFO] - User set preference: ['browserVersion', '122']
+
+14-04-2024T13:46:54 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1440491, tunnelId=9e2c2ce9-547c-4b61-bd40-d9a619d17015, usingTunnel=true}']
+
+14-04-2024T13:46:54 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+14-04-2024T13:46:54 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+14-04-2024T13:47:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-04-2024T13:47:38 - [TEST_STEP][PASSED] - navigateToUrl(url_login): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+14-04-2024T13:48:07 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+14-04-2024T13:48:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-04-2024T13:48:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-04-2024T13:48:10 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Login"): Taking screenshot successfully
+
+14-04-2024T13:48:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-04-2024T13:48:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Before Login.png]]
+
+14-04-2024T13:48:16 - [TEST_STEP][PASSED] - setText(findTestObject("field_username"), valid_username): Text 'Admin' is set on object 'Object Repository/field_username'
+
+14-04-2024T13:48:26 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/field_username'
+
+14-04-2024T13:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("field_password"), valid_password): Text 'admin123' is set on object 'Object Repository/field_password'
+
+14-04-2024T13:48:35 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/field_password'
+
+14-04-2024T13:48:35 - [TEST_STEP][PASSED] - click(findTestObject("btn_login")): Object: 'Object Repository/btn_login' is clicked on
+
+14-04-2024T13:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_login' is clicked on
+
+14-04-2024T13:48:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+14-04-2024T13:48:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-04-2024T13:48:47 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Login"): Taking screenshot successfully
+
+14-04-2024T13:48:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-04-2024T13:48:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-After Login.png]]
+
+14-04-2024T13:48:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login_Success' successfully
+
+14-04-2024T13:48:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-04-2024T13:48:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-04-2024T13:48:56 - [TEST_STEP][PASSED] - click(findTestObject("dropdow_logout")): Object: 'Object Repository/dropdow_logout' is clicked on
+
+14-04-2024T13:49:01 - [MESSAGE][PASSED] - Object: 'Object Repository/dropdow_logout' is clicked on
+
+14-04-2024T13:49:01 - [TEST_STEP][PASSED] - click(findTestObject("btn_logout")): Object: 'Object Repository/btn_logout' is clicked on
+
+14-04-2024T13:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_logout' is clicked on
+
+14-04-2024T13:49:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-04-2024T13:49:10 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SearchMenuBySearchBox_Failed" time="107.202" classname="Test Cases/SearchMenuBySearchBox_Failed" status="PASSED">
+         <system-out><![CDATA[14-04-2024T13:49:10 - [TEST_CASE][PASSED] - Test Cases/SearchMenuBySearchBox_Failed: Test Cases/SearchMenuBySearchBox_Failed
+
+14-04-2024T13:49:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login_Failed"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login_Failed' successfully
+
+14-04-2024T13:49:10 - [TEST_CASE][PASSED] - Test Cases/Login/Login_Failed: Test Cases/Login/Login_Failed
+
+14-04-2024T13:49:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-04-2024T13:49:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-04-2024T13:49:12 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+14-04-2024T13:49:12 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+14-04-2024T13:49:12 - [MESSAGE][INFO] - User set preference: ['browserVersion', '122']
+
+14-04-2024T13:49:12 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1440491, tunnelId=9e2c2ce9-547c-4b61-bd40-d9a619d17015, usingTunnel=true}']
+
+14-04-2024T13:49:12 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+14-04-2024T13:49:12 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+14-04-2024T13:49:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-04-2024T13:49:53 - [TEST_STEP][PASSED] - navigateToUrl(url_login): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+14-04-2024T13:50:15 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+14-04-2024T13:50:15 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+14-04-2024T13:50:15 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+14-04-2024T13:50:15 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Login Failed", []): Taking screenshot successfully
+
+14-04-2024T13:50:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-04-2024T13:50:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Before Login Failed.png]]
+
+14-04-2024T13:50:21 - [TEST_STEP][PASSED] - setText(findTestObject("field_username"), invalid_username): Text 'admin' is set on object 'Object Repository/field_username'
+
+14-04-2024T13:50:30 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/field_username'
+
+14-04-2024T13:50:30 - [TEST_STEP][PASSED] - setText(findTestObject("field_password"), invalid_password): Text 'Admin123' is set on object 'Object Repository/field_password'
+
+14-04-2024T13:50:39 - [MESSAGE][PASSED] - Text 'Admin123' is set on object 'Object Repository/field_password'
+
+14-04-2024T13:50:39 - [TEST_STEP][PASSED] - click(findTestObject("btn_login")): Object: 'Object Repository/btn_login' is clicked on
+
+14-04-2024T13:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_login' is clicked on
+
+14-04-2024T13:50:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-04-2024T13:50:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-04-2024T13:50:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("verify_loginFailed"), 2): Object 'Object Repository/verify_loginFailed' is present
+
+14-04-2024T13:50:52 - [MESSAGE][PASSED] - Object 'Object Repository/verify_loginFailed' is present
+
+14-04-2024T13:50:52 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Login Failed", []): Taking screenshot successfully
+
+14-04-2024T13:50:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-04-2024T13:50:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-After Login Failed.png]]
+
+14-04-2024T13:50:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login_Failed' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SearchMenuBySearchBox_Success" time="126.06" classname="Test Cases/SearchMenuBySearchBox_Success" status="PASSED">
+         <system-out><![CDATA[14-04-2024T13:50:57 - [TEST_CASE][PASSED] - Test Cases/SearchMenuBySearchBox_Success: Test Cases/SearchMenuBySearchBox_Success
+
+14-04-2024T13:50:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login_Success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login_Success' successfully
+
+14-04-2024T13:50:58 - [TEST_CASE][PASSED] - Test Cases/Login/Login_Success: Test Cases/Login/Login_Success
+
+14-04-2024T13:50:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-04-2024T13:50:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-04-2024T13:50:59 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+14-04-2024T13:50:59 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+14-04-2024T13:50:59 - [MESSAGE][INFO] - User set preference: ['browserVersion', '122']
+
+14-04-2024T13:50:59 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1440491, tunnelId=9e2c2ce9-547c-4b61-bd40-d9a619d17015, usingTunnel=true}']
+
+14-04-2024T13:50:59 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+14-04-2024T13:50:59 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+14-04-2024T13:51:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-04-2024T13:51:38 - [TEST_STEP][PASSED] - navigateToUrl(url_login): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+14-04-2024T13:52:00 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+14-04-2024T13:52:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-04-2024T13:52:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-04-2024T13:52:03 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Login"): Taking screenshot successfully
+
+14-04-2024T13:52:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-04-2024T13:52:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Before Login.png]]
+
+14-04-2024T13:52:09 - [TEST_STEP][PASSED] - setText(findTestObject("field_username"), valid_username): Text 'Admin' is set on object 'Object Repository/field_username'
+
+14-04-2024T13:52:18 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/field_username'
+
+14-04-2024T13:52:18 - [TEST_STEP][PASSED] - setText(findTestObject("field_password"), valid_password): Text 'admin123' is set on object 'Object Repository/field_password'
+
+14-04-2024T13:52:28 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/field_password'
+
+14-04-2024T13:52:28 - [TEST_STEP][PASSED] - click(findTestObject("btn_login")): Object: 'Object Repository/btn_login' is clicked on
+
+14-04-2024T13:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_login' is clicked on
+
+14-04-2024T13:52:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+14-04-2024T13:52:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-04-2024T13:52:38 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Login"): Taking screenshot successfully
+
+14-04-2024T13:52:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-04-2024T13:52:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-After Login.png]]
+
+14-04-2024T13:52:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login_Success' successfully
+
+14-04-2024T13:52:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-04-2024T13:52:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-04-2024T13:52:48 - [TEST_STEP][PASSED] - setText(findTestObject("searchBox_menu"), "Admin"): Text 'Admin' is set on object 'Object Repository/searchBox_menu'
+
+14-04-2024T13:52:58 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/searchBox_menu'
+
+14-04-2024T13:52:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("verify_searchMenu"), 0): Object 'Object Repository/verify_searchMenu' is present
+
+14-04-2024T13:52:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-04-2024T13:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/verify_searchMenu' is present
+
+14-04-2024T13:53:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-04-2024T13:53:03 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-04-2024T13:43:23 - [TEST_SUITE][PASSED] - TS_LoginLogout: Test Cases/SearchMenuBySearchBox_Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

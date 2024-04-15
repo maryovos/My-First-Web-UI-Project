@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Qualifications_Education,Chrome 123.0.0.0,,,15-04-2024 09:37:35,15-04-2024 09:38:46,1m - 10.696s,PASSED
+,,,,,,,
+Test Cases/Menu_Admin/Navigate_Qualifications_Education,Chrome 123.0.0.0,,,15-04-2024 09:37:36,15-04-2024 09:38:46,1m - 10.172s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,15-04-2024 09:37:36,15-04-2024 09:38:29,53.004s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 09:38:29,15-04-2024 09:38:32,3.024s,PASSED
+"click(findTestObject(""F_Menu_Admin/menu_admin""))",Chrome 123.0.0.0,,,15-04-2024 09:38:32,15-04-2024 09:38:36,3.249s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Qualifications/tab_qualifications""))",Chrome 123.0.0.0,,,15-04-2024 09:38:36,15-04-2024 09:38:39,3.675s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Qualifications/select_education""))",Chrome 123.0.0.0,,,15-04-2024 09:38:39,15-04-2024 09:38:41,2.001s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menu""), ""Education"")",Chrome 123.0.0.0,,,15-04-2024 09:38:41,15-04-2024 09:38:43,1.419s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 09:38:43,15-04-2024 09:38:46,3.013s,PASSED

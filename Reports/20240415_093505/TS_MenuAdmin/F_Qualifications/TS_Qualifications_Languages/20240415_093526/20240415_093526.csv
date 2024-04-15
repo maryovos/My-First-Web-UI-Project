@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Qualifications_Languages,Chrome 123.0.0.0,,,15-04-2024 09:37:43,15-04-2024 09:38:53,1m - 10.634s,PASSED
+,,,,,,,
+Test Cases/Menu_Admin/Navigate_Qualifications_Languages,Chrome 123.0.0.0,,,15-04-2024 09:37:43,15-04-2024 09:38:53,1m - 10.130s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,15-04-2024 09:37:44,15-04-2024 09:38:38,53.691s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 09:38:38,15-04-2024 09:38:41,3.026s,PASSED
+"click(findTestObject(""F_Menu_Admin/menu_admin""))",Chrome 123.0.0.0,,,15-04-2024 09:38:41,15-04-2024 09:38:43,2.527s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Qualifications/tab_qualifications""))",Chrome 123.0.0.0,,,15-04-2024 09:38:43,15-04-2024 09:38:47,3.180s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Qualifications/select_languages""))",Chrome 123.0.0.0,,,15-04-2024 09:38:47,15-04-2024 09:38:49,2.541s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menu""), ""Languages"")",Chrome 123.0.0.0,,,15-04-2024 09:38:49,15-04-2024 09:38:50,1.283s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 09:38:50,15-04-2024 09:38:53,3.017s,PASSED

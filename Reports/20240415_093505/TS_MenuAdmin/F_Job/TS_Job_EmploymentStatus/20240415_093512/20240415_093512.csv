@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Job_EmploymentStatus,Chrome 123.0.0.0,,,15-04-2024 09:36:08,15-04-2024 09:38:53,2m - 45.101s,PASSED
+,,,,,,,
+Test Cases/Menu_Admin/Navigate_Job_EmploymentStatus,Chrome 123.0.0.0,,,15-04-2024 09:37:35,15-04-2024 09:38:53,1m - 18.135s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,15-04-2024 09:37:35,15-04-2024 09:38:38,1m - 2.814s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 09:38:38,15-04-2024 09:38:41,3.006s,PASSED
+"click(findTestObject(""F_Menu_Admin/menu_admin""))",Chrome 123.0.0.0,,,15-04-2024 09:38:41,15-04-2024 09:38:44,2.511s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Job/tab_job""))",Chrome 123.0.0.0,,,15-04-2024 09:38:44,15-04-2024 09:38:47,2.965s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Job/select_employmentStatus""))",Chrome 123.0.0.0,,,15-04-2024 09:38:47,15-04-2024 09:38:49,2.416s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menu""), ""Employment Status"")",Chrome 123.0.0.0,,,15-04-2024 09:38:49,15-04-2024 09:38:50,1.352s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 09:38:50,15-04-2024 09:38:53,3.022s,PASSED

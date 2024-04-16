@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_UserManagement,Chrome 123.0.0.0,,,15-04-2024 14:58:15,15-04-2024 14:59:25,1m - 9.447s,PASSED
+,,,,,,,
+Test Cases/Menu_Admin/Navigate_Admin_User,Chrome 123.0.0.0,,,15-04-2024 14:58:16,15-04-2024 14:59:25,1m - 9.059s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,15-04-2024 14:58:16,15-04-2024 14:59:10,53.619s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 14:59:10,15-04-2024 14:59:13,3.022s,PASSED
+"click(findTestObject(""F_Menu_Admin/menu_admin""))",Chrome 123.0.0.0,,,15-04-2024 14:59:13,15-04-2024 14:59:16,2.445s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_UserManagement/tab_userManagement""))",Chrome 123.0.0.0,,,15-04-2024 14:59:16,15-04-2024 14:59:18,2.670s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_UserManagement/select_users""))",Chrome 123.0.0.0,,,15-04-2024 14:59:18,15-04-2024 14:59:20,2.186s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menuWithFilter""), ""System Users"")",Chrome 123.0.0.0,,,15-04-2024 14:59:20,15-04-2024 14:59:22,1.438s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 14:59:22,15-04-2024 14:59:25,3.008s,PASSED

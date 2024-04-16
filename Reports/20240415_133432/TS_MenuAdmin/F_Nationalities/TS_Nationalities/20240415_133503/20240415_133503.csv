@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Nationalities,Chrome 123.0.0.0,,,15-04-2024 13:38:14,15-04-2024 13:39:28,1m - 13.843s,PASSED
+,,,,,,,
+Test Cases/Menu_Admin/Navigate_Nationalities,Chrome 123.0.0.0,,,15-04-2024 13:38:14,15-04-2024 13:39:28,1m - 13.571s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,15-04-2024 13:38:15,15-04-2024 13:39:15,1m - 0.421s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 13:39:15,15-04-2024 13:39:18,3.011s,PASSED
+"click(findTestObject(""F_Menu_Admin/menu_admin""))",Chrome 123.0.0.0,,,15-04-2024 13:39:18,15-04-2024 13:39:21,2.338s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Nationalities/tab_nationalities""))",Chrome 123.0.0.0,,,15-04-2024 13:39:21,15-04-2024 13:39:24,2.961s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menu""), ""Nationalities"")",Chrome 123.0.0.0,,,15-04-2024 13:39:24,15-04-2024 13:39:25,1.316s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 13:39:25,15-04-2024 13:39:28,3.004s,PASSED

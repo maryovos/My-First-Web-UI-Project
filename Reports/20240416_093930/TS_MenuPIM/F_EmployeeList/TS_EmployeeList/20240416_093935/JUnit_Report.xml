@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_EmployeeList" time="61.234" tests="1" failures="0" errors="0">
+   <testsuite name="TS_EmployeeList" tests="1" failures="0" errors="0" time="61.234" skipped="0" timestamp="16-04-2024T09:39:57" hostname="1556 - LAPTOP-PT885S91" id="Test Suites/TS_MenuPIM/F_EmployeeList/TS_EmployeeList">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1556\\git\\My-First-Web-UI-Project\\Reports\\20240416_093930\\TS_MenuPIM\\F_EmployeeList\\TS_EmployeeList\\20240416_093935"/>
+         <property name="logFiles" value="C:\\Users\\1556\\git\\My-First-Web-UI-Project\\Reports\\20240416_093930\\TS_MenuPIM\\F_EmployeeList\\TS_EmployeeList\\20240416_093935\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Before Login.png, keyes\keyes-After Login.png"/>
+         <property name="hostName" value="1556 - LAPTOP-PT885S91"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.35"/>
+         <property name="sessionId" value="384053c63710c1a091f565654698ecef"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Menu_PIM/Navigate_EmployeeList" time="60.824" classname="Test Cases/Menu_PIM/Navigate_EmployeeList" status="PASSED">
+         <system-out><![CDATA[16-04-2024T09:39:57 - [TEST_CASE][PASSED] - Test Cases/Menu_PIM/Navigate_EmployeeList: Test Cases/Menu_PIM/Navigate_EmployeeList
+
+16-04-2024T09:39:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login_Success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login_Success' successfully
+
+16-04-2024T09:39:58 - [TEST_CASE][PASSED] - Test Cases/Login/Login_Success: Test Cases/Login/Login_Success
+
+16-04-2024T09:39:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-04-2024T09:39:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-04-2024T09:39:59 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+16-04-2024T09:39:59 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+16-04-2024T09:40:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-04-2024T09:40:03 - [TEST_STEP][PASSED] - navigateToUrl(url_login): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+16-04-2024T09:40:28 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+16-04-2024T09:40:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-04-2024T09:40:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-04-2024T09:40:31 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Login"): Taking screenshot successfully
+
+16-04-2024T09:40:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-04-2024T09:40:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Before Login.png]]
+
+16-04-2024T09:40:32 - [TEST_STEP][PASSED] - setText(findTestObject("field_username"), valid_username): Text 'Admin' is set on object 'Object Repository/field_username'
+
+16-04-2024T09:40:35 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/field_username'
+
+16-04-2024T09:40:35 - [TEST_STEP][PASSED] - setText(findTestObject("field_password"), valid_password): Text 'admin123' is set on object 'Object Repository/field_password'
+
+16-04-2024T09:40:38 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/field_password'
+
+16-04-2024T09:40:38 - [TEST_STEP][PASSED] - click(findTestObject("btn_login")): Object: 'Object Repository/btn_login' is clicked on
+
+16-04-2024T09:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_login' is clicked on
+
+16-04-2024T09:40:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+16-04-2024T09:40:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+16-04-2024T09:40:44 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Login"): Taking screenshot successfully
+
+16-04-2024T09:40:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+16-04-2024T09:40:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-After Login.png]]
+
+16-04-2024T09:40:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login_Success' successfully
+
+16-04-2024T09:40:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-04-2024T09:40:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-04-2024T09:40:48 - [TEST_STEP][PASSED] - click(findTestObject("F_Menu_PIM/menu_pim")): Object: 'Object Repository/F_Menu_PIM/menu_pim' is clicked on
+
+16-04-2024T09:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/F_Menu_PIM/menu_pim' is clicked on
+
+16-04-2024T09:40:50 - [TEST_STEP][PASSED] - click(findTestObject("F_Menu_PIM/tab_employeeList")): Object: 'Object Repository/F_Menu_PIM/tab_employeeList' is clicked on
+
+16-04-2024T09:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/F_Menu_PIM/tab_employeeList' is clicked on
+
+16-04-2024T09:40:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("F_Menu_Admin/title_menuWithFilter"), "Employee Information"): Actual text and expected text of test object 'Object Repository/F_Menu_Admin/title_menuWithFilter' are matched.
+
+16-04-2024T09:40:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/F_Menu_Admin/title_menuWithFilter' are matched.
+
+16-04-2024T09:40:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-04-2024T09:40:58 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-04-2024T09:39:57 - [TEST_SUITE][PASSED] - TS_EmployeeList: Test Cases/Menu_PIM/Navigate_EmployeeList]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

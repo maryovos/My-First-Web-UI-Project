@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_AddEmployee,Chrome 123.0.6312.107,,,16-04-2024 09:27:59,16-04-2024 09:32:55,4m - 55.650s,FAILED
+,,,,,,,
+Test Cases/Menu_PIM/Navigate_AddEmployee,Chrome 123.0.6312.107,,,16-04-2024 09:31:52,16-04-2024 09:32:55,1m - 2.661s,FAILED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.6312.107,,,16-04-2024 09:31:52,16-04-2024 09:32:14,22.135s,PASSED
+delay(3),Chrome 123.0.6312.107,,,16-04-2024 09:32:14,16-04-2024 09:32:17,3.014s,PASSED
+"click(findTestObject(""F_Menu_PIM/menu_pim""))",Chrome 123.0.6312.107,,,16-04-2024 09:32:17,16-04-2024 09:32:19,1.896s,PASSED
+"click(findTestObject(""F_Menu_PIM/tab_addEmployee""))",Chrome 123.0.6312.107,,,16-04-2024 09:32:19,16-04-2024 09:32:21,1.433s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menu""), ""Add Employee"")",Chrome 123.0.6312.107,,,16-04-2024 09:32:21,16-04-2024 09:32:55,34.168s,FAILED

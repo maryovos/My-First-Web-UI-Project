@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_MenuPIMs,Chrome 123.0.0.0,,,16-04-2024 08:37:53,16-04-2024 08:40:27,2m - 33.485s,PASSED
+,,,,,,,
+Test Cases/Menu_PIM/Navigate_PIM_AddEmployee,Chrome 123.0.0.0,,,16-04-2024 08:37:53,16-04-2024 08:38:36,42.683s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,16-04-2024 08:37:54,16-04-2024 08:38:24,30.458s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 08:38:24,16-04-2024 08:38:27,3.016s,PASSED
+"click(findTestObject(""F_Menu_PIM/menu_pim""))",Chrome 123.0.0.0,,,16-04-2024 08:38:27,16-04-2024 08:38:29,2.127s,PASSED
+"click(findTestObject(""F_Menu_PIM/tab_addEmployee""))",Chrome 123.0.0.0,,,16-04-2024 08:38:29,16-04-2024 08:38:32,2.325s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menu""), ""Add Employee"")",Chrome 123.0.0.0,,,16-04-2024 08:38:32,16-04-2024 08:38:33,1.316s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 08:38:33,16-04-2024 08:38:36,3.009s,PASSED
+,,,,,,,
+Test Cases/Menu_PIM/Navigate_PIM_EmployeeList,Chrome 123.0.0.0,,,16-04-2024 08:38:36,16-04-2024 08:39:13,37.029s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,16-04-2024 08:38:36,16-04-2024 08:39:01,24.955s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 08:39:01,16-04-2024 08:39:04,3.006s,PASSED
+"click(findTestObject(""F_Menu_PIM/menu_pim""))",Chrome 123.0.0.0,,,16-04-2024 08:39:04,16-04-2024 08:39:06,2.131s,PASSED
+"click(findTestObject(""F_Menu_PIM/tab_employeeList""))",Chrome 123.0.0.0,,,16-04-2024 08:39:06,16-04-2024 08:39:09,2.312s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menuWithFilter""), ""Employee Information"")",Chrome 123.0.0.0,,,16-04-2024 08:39:09,16-04-2024 08:39:10,1.537s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 08:39:10,16-04-2024 08:39:13,3.004s,PASSED
+,,,,,,,
+Test Cases/Menu_PIM/Navigate_PIM_OptionalFields,Chrome 123.0.0.0,,,16-04-2024 08:39:13,16-04-2024 08:39:51,37.879s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,16-04-2024 08:39:13,16-04-2024 08:39:37,23.961s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 08:39:37,16-04-2024 08:39:40,3.004s,PASSED
+"click(findTestObject(""F_Menu_PIM/menu_pim""))",Chrome 123.0.0.0,,,16-04-2024 08:39:40,16-04-2024 08:39:42,2.132s,PASSED
+"click(findTestObject(""F_Menu_PIM/tab_configuration""))",Chrome 123.0.0.0,,,16-04-2024 08:39:42,16-04-2024 08:39:45,2.379s,PASSED
+"click(findTestObject(""F_Menu_PIM/select_optionalFields""))",Chrome 123.0.0.0,,,16-04-2024 08:39:45,16-04-2024 08:39:47,2.001s,PASSED
+"verifyElementText(findTestObject(""F_Menu_PIM/title_menu_pim""), ""Optional Fields"")",Chrome 123.0.0.0,,,16-04-2024 08:39:47,16-04-2024 08:39:48,1.309s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 08:39:48,16-04-2024 08:39:51,3.008s,PASSED
+,,,,,,,
+Test Cases/Menu_PIM/Navigate_PIM_Report,Chrome 123.0.0.0,,,16-04-2024 08:39:51,16-04-2024 08:40:27,35.619s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,16-04-2024 08:39:51,16-04-2024 08:40:15,23.751s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 08:40:15,16-04-2024 08:40:18,3.006s,PASSED
+"click(findTestObject(""F_Menu_PIM/menu_pim""))",Chrome 123.0.0.0,,,16-04-2024 08:40:18,16-04-2024 08:40:20,2.106s,PASSED
+"click(findTestObject(""F_Menu_PIM/tab_reports""))",Chrome 123.0.0.0,,,16-04-2024 08:40:20,16-04-2024 08:40:22,2.344s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menuWithFilter""), ""Employee Reports"")",Chrome 123.0.0.0,,,16-04-2024 08:40:22,16-04-2024 08:40:24,1.329s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 08:40:24,16-04-2024 08:40:27,3.003s,PASSED

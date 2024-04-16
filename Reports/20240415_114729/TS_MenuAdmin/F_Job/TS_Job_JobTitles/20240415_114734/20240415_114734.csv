@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Job_JobTitles,Chrome 123.0.0.0,,,15-04-2024 11:48:23,15-04-2024 11:50:15,1m - 52.055s,PASSED
+,,,,,,,
+Test Cases/Menu_Admin/Navigate_Job_JobTitles,Chrome 123.0.0.0,,,15-04-2024 11:48:24,15-04-2024 11:50:15,1m - 51.465s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,15-04-2024 11:48:25,15-04-2024 11:50:00,1m - 34.541s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 11:50:00,15-04-2024 11:50:03,3.018s,PASSED
+"click(findTestObject(""F_Menu_Admin/menu_admin""))",Chrome 123.0.0.0,,,15-04-2024 11:50:03,15-04-2024 11:50:06,2.853s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Job/tab_job""))",Chrome 123.0.0.0,,,15-04-2024 11:50:06,15-04-2024 11:50:08,2.681s,PASSED
+"click(findTestObject(""F_Menu_Admin/F_Job/select_jobTitles""))",Chrome 123.0.0.0,,,15-04-2024 11:50:08,15-04-2024 11:50:11,2.425s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menu""), ""Job Titles"")",Chrome 123.0.0.0,,,15-04-2024 11:50:11,15-04-2024 11:50:12,1.630s,PASSED
+delay(3),Chrome 123.0.0.0,,,15-04-2024 11:50:12,15-04-2024 11:50:15,3.015s,PASSED

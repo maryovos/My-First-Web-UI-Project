@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Configuration,Chrome 123.0.0.0,,,16-04-2024 09:39:51,16-04-2024 09:43:26,3m - 34.481s,PASSED
+,,,,,,,
+Test Cases/Menu_PIM/Navigate_Configuration_CustomFields,Chrome 123.0.0.0,,,16-04-2024 09:39:52,16-04-2024 09:40:44,52.180s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,16-04-2024 09:39:52,16-04-2024 09:40:29,37.205s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 09:40:29,16-04-2024 09:40:32,3.014s,PASSED
+"click(findTestObject(""F_Menu_PIM/menu_pim""))",Chrome 123.0.0.0,,,16-04-2024 09:40:32,16-04-2024 09:40:35,2.213s,PASSED
+"click(findTestObject(""F_Menu_PIM/tab_configuration""))",Chrome 123.0.0.0,,,16-04-2024 09:40:35,16-04-2024 09:40:37,2.685s,PASSED
+"click(findTestObject(""F_Menu_PIM/select_customFields""))",Chrome 123.0.0.0,,,16-04-2024 09:40:37,16-04-2024 09:40:39,2.077s,PASSED
+"verifyElementText(findTestObject(""F_Menu_Admin/title_menu""), ""Custom Fields"")",Chrome 123.0.0.0,,,16-04-2024 09:40:39,16-04-2024 09:40:41,1.354s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 09:40:41,16-04-2024 09:40:44,3.015s,PASSED
+,,,,,,,
+Test Cases/Menu_PIM/Navigate_Configuration_DataImport,Chrome 123.0.0.0,,,16-04-2024 09:40:44,16-04-2024 09:41:22,38.557s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,16-04-2024 09:40:44,16-04-2024 09:41:09,24.744s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 09:41:09,16-04-2024 09:41:12,3.013s,PASSED
+"click(findTestObject(""F_Menu_PIM/menu_pim""))",Chrome 123.0.0.0,,,16-04-2024 09:41:12,16-04-2024 09:41:14,2.174s,PASSED
+"click(findTestObject(""F_Menu_PIM/tab_configuration""))",Chrome 123.0.0.0,,,16-04-2024 09:41:14,16-04-2024 09:41:16,2.602s,PASSED
+"click(findTestObject(""F_Menu_PIM/select_dataImport""))",Chrome 123.0.0.0,,,16-04-2024 09:41:16,16-04-2024 09:41:19,2.073s,PASSED
+"verifyElementText(findTestObject(""F_Menu_PIM/title_menu_pim""), ""Data Import"")",Chrome 123.0.0.0,,,16-04-2024 09:41:19,16-04-2024 09:41:19,0.859s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 09:41:19,16-04-2024 09:41:22,3.014s,PASSED
+,,,,,,,
+Test Cases/Menu_PIM/Navigate_Configuration_OptionalFields,Chrome 123.0.0.0,,,16-04-2024 09:41:22,16-04-2024 09:42:01,38.274s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,16-04-2024 09:41:22,16-04-2024 09:41:46,23.903s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 09:41:46,16-04-2024 09:41:49,3.011s,PASSED
+"click(findTestObject(""F_Menu_PIM/menu_pim""))",Chrome 123.0.0.0,,,16-04-2024 09:41:49,16-04-2024 09:41:52,2.204s,PASSED
+"click(findTestObject(""F_Menu_PIM/tab_configuration""))",Chrome 123.0.0.0,,,16-04-2024 09:41:52,16-04-2024 09:41:54,2.846s,PASSED
+"click(findTestObject(""F_Menu_PIM/select_optionalFields""))",Chrome 123.0.0.0,,,16-04-2024 09:41:54,16-04-2024 09:41:56,1.991s,PASSED
+"verifyElementText(findTestObject(""F_Menu_PIM/title_menu_pim""), ""Optional Fields"")",Chrome 123.0.0.0,,,16-04-2024 09:41:56,16-04-2024 09:41:58,1.235s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 09:41:58,16-04-2024 09:42:01,3.006s,PASSED
+,,,,,,,
+Test Cases/Menu_PIM/Navigate_Configuration_ReportingMethods,Chrome 123.0.0.0,,,16-04-2024 09:42:01,16-04-2024 09:42:46,44.817s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,16-04-2024 09:42:01,16-04-2024 09:42:31,30.537s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 09:42:31,16-04-2024 09:42:34,3.009s,PASSED
+"click(findTestObject(""F_Menu_PIM/menu_pim""))",Chrome 123.0.0.0,,,16-04-2024 09:42:34,16-04-2024 09:42:37,2.205s,PASSED
+"click(findTestObject(""F_Menu_PIM/tab_configuration""))",Chrome 123.0.0.0,,,16-04-2024 09:42:37,16-04-2024 09:42:39,2.640s,PASSED
+"click(findTestObject(""F_Menu_PIM/select_reportingMethods""))",Chrome 123.0.0.0,,,16-04-2024 09:42:39,16-04-2024 09:42:41,2.038s,PASSED
+"verifyElementText(findTestObject(""F_Menu_PIM/title_menu_pim""), ""Reporting Methods"")",Chrome 123.0.0.0,,,16-04-2024 09:42:41,16-04-2024 09:42:42,1.297s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 09:42:42,16-04-2024 09:42:46,3.018s,PASSED
+,,,,,,,
+Test Cases/Menu_PIM/Navigate_Configuration_TerminationReasons,Chrome 123.0.0.0,,,16-04-2024 09:42:46,16-04-2024 09:43:26,40.270s,PASSED
+"callTestCase(findTestCase(""Login/Login_Success""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,16-04-2024 09:42:46,16-04-2024 09:43:11,25.453s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 09:43:11,16-04-2024 09:43:14,3.008s,PASSED
+"click(findTestObject(""F_Menu_PIM/menu_pim""))",Chrome 123.0.0.0,,,16-04-2024 09:43:14,16-04-2024 09:43:16,2.136s,PASSED
+"click(findTestObject(""F_Menu_PIM/tab_configuration""))",Chrome 123.0.0.0,,,16-04-2024 09:43:16,16-04-2024 09:43:19,2.605s,PASSED
+"click(findTestObject(""F_Menu_PIM/select_terminationReasons""))",Chrome 123.0.0.0,,,16-04-2024 09:43:19,16-04-2024 09:43:21,2.040s,PASSED
+"verifyElementText(findTestObject(""F_Menu_PIM/title_menu_pim""), ""Termination Reasons"")",Chrome 123.0.0.0,,,16-04-2024 09:43:21,16-04-2024 09:43:23,1.897s,PASSED
+delay(3),Chrome 123.0.0.0,,,16-04-2024 09:43:23,16-04-2024 09:43:26,3.010s,PASSED
